@@ -1,0 +1,79 @@
+body{
+    margin: 50px;
+    background-color: #edede9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cardmain {
+    display: flex;
+    padding: 15px 30px;
+    background-color: #d6ccc2;
+    width: 900px;
+    height: 430px;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-bottom: 30px solid silver;
+    
+    
+}
+
+
+.frame{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #f5ebe0;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto 0;
+}
+
+
+.me{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+
+.description{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.name{
+    font-size: 35px;
+    transition: font-size 0.5s ease;
+}
+
+.name:hover {
+    font-size: 40px; 
+}
+
+.dev {
+    font-size: 28px;
+    transition: font-size 0.5s ease;
+}
+
+.dev:hover {
+    font-size: 40px; 
+}
+
+.location{
+    font-size: 15px;
+    transition: font-size 0.5s ease;
+}
+
+.location:hover{
+    font-size: 25px;
+}
